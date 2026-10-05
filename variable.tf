@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "instance_type" {
   description = "The type of instance to use"
   type        = string
-  default     = "t2.micro"
+  default     = "newEC2instance"
 }
 
 
@@ -16,5 +16,5 @@ variable "instance_type" {
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "juniorbucket28"
+  default     = "juniorS3bucket28"
 }
